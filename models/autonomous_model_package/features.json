@@ -1,0 +1,139 @@
+{
+  "features": [
+    "temperature_c",
+    "pressure_bar",
+    "ph_level",
+    "flow_rate_lph",
+    "vibration_x",
+    "vibration_y",
+    "vibration_z",
+    "ultrasound_leak_db",
+    "acoustic_emission",
+    "orp_redox_mv",
+    "humidity_rh",
+    "vision_defect_score",
+    "vision_contaminant_score",
+    "co2_ppm",
+    "o2_percent",
+    "voc_ppm",
+    "differential_pressure_bar",
+    "refrigerant_pressure_bar",
+    "vibration_magnitude",
+    "flow_rate_normalized",
+    "temperature_deviation"
+  ],
+  "feature_importance": [
+    {
+      "feature": "pressure_bar",
+      "importance": 0.13903507736445397
+    },
+    {
+      "feature": "vision_contaminant_score",
+      "importance": 0.07639685392796192
+    },
+    {
+      "feature": "temperature_c",
+      "importance": 0.0688162423270883
+    },
+    {
+      "feature": "temperature_deviation",
+      "importance": 0.04841666286973166
+    },
+    {
+      "feature": "vibration_magnitude",
+      "importance": 0.04427688989146079
+    },
+    {
+      "feature": "differential_pressure_bar",
+      "importance": 0.04297868389237725
+    },
+    {
+      "feature": "ultrasound_leak_db",
+      "importance": 0.042463851958057894
+    },
+    {
+      "feature": "vibration_z",
+      "importance": 0.041496921744919674
+    },
+    {
+      "feature": "vibration_y",
+      "importance": 0.041136637179318584
+    },
+    {
+      "feature": "ph_level",
+      "importance": 0.04032372710848852
+    },
+    {
+      "feature": "voc_ppm",
+      "importance": 0.0401528488073066
+    },
+    {
+      "feature": "acoustic_emission",
+      "importance": 0.03972842302429509
+    },
+    {
+      "feature": "o2_percent",
+      "importance": 0.039484212815170394
+    },
+    {
+      "feature": "orp_redox_mv",
+      "importance": 0.03919931872376541
+    },
+    {
+      "feature": "vibration_x",
+      "importance": 0.03918678072021841
+    },
+    {
+      "feature": "co2_ppm",
+      "importance": 0.03906060108104997
+    },
+    {
+      "feature": "refrigerant_pressure_bar",
+      "importance": 0.03876939629923804
+    },
+    {
+      "feature": "vision_defect_score",
+      "importance": 0.03670369974017759
+    },
+    {
+      "feature": "humidity_rh",
+      "importance": 0.03639751940182684
+    },
+    {
+      "feature": "flow_rate_normalized",
+      "importance": 0.0332877528683951
+    },
+    {
+      "feature": "flow_rate_lph",
+      "importance": 0.032687898254697895
+    }
+  ],
+  "training_date": "2026-02-09T10:13:11.405642",
+  "model_performance": {
+    "accuracy": 0.9,
+    "auc_mean": 0.6407671881511954,
+    "auc_std": 0.02611641490626679,
+    "n_training_samples": 8000,
+    "n_features": 21
+  },
+  "default_values": {
+    "temperature_c": 75.0,
+    "pressure_bar": 15.0,
+    "ph_level": 6.8,
+    "flow_rate_lph": 1200.0,
+    "vibration_x": 0.0,
+    "vibration_y": 0.0,
+    "vibration_z": 0.0,
+    "ultrasound_leak_db": 0.0,
+    "acoustic_emission": 0.0,
+    "orp_redox_mv": 400.0,
+    "humidity_rh": 55.0,
+    "vision_defect_score": 0.0,
+    "vision_contaminant_score": 0.0,
+    "co2_ppm": 420.0,
+    "o2_percent": 20.8,
+    "voc_ppm": 0.0,
+    "differential_pressure_bar": 0.1,
+    "refrigerant_pressure_bar": 8.5
+  }
+}

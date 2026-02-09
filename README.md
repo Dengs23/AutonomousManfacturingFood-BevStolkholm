@@ -1,2 +1,16 @@
-# AutonomousManfacturingFood-BevStolkholm
-Here is a multi-agents autonomous systems that consists of 14+ sensors, of a Food &amp; Bev manufacturing system within the Stockholm region. This consists of 4 agents: alert, analyser, production and optimum. These agents work hand-in-hand to build an autonomous system that ensures a smooth manufacturing system. 
+# 🏭 Autonomous Manufacturing System - Food & Beverage Stockholm
+
+AI-powered manufacturing system using machine learning and CrewAI.
+
+## Features
+- Predictive maintenance with 17 sensors
+- Quality control automation
+- Production optimization
+- Real-time monitoring
+
+## Project Structure
+- `notebooks/`: Training notebooks
+- `scripts/`: Production scripts
+- `models/`: ML models
+- `agents/`: CrewAI agents
+- `crew/`: Crew orchestration

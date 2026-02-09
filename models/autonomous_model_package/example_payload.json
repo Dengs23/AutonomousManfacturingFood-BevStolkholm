@@ -1,0 +1,50 @@
+{
+  "features": [
+    "temperature_c",
+    "pressure_bar",
+    "ph_level",
+    "flow_rate_lph",
+    "vibration_x",
+    "vibration_y",
+    "vibration_z",
+    "ultrasound_leak_db",
+    "acoustic_emission",
+    "orp_redox_mv",
+    "humidity_rh",
+    "vision_defect_score",
+    "vision_contaminant_score",
+    "co2_ppm",
+    "o2_percent",
+    "voc_ppm",
+    "differential_pressure_bar",
+    "refrigerant_pressure_bar",
+    "vibration_magnitude",
+    "flow_rate_normalized",
+    "temperature_deviation"
+  ],
+  "example_input": {
+    "temperature_c": 79.5,
+    "pressure_bar": 15.2,
+    "ph_level": 6.5,
+    "flow_rate_lph": 1250,
+    "vibration_x": 2.3,
+    "vibration_y": 1.8,
+    "vibration_z": 3.1,
+    "ultrasound_leak_db": 45.2,
+    "acoustic_emission": 0.85,
+    "orp_redox_mv": 450,
+    "humidity_rh": 65.2,
+    "vision_defect_score": 0.02,
+    "vision_contaminant_score": 0.001,
+    "co2_ppm": 850,
+    "o2_percent": 20.8,
+    "voc_ppm": 2.1,
+    "differential_pressure_bar": 0.15,
+    "refrigerant_pressure_bar": 8.2
+  },
+  "expected_output": {
+    "prediction": 0,
+    "probability_failure": 0.2247814163162442,
+    "confidence": 0.7752185836837553
+  }
+}
