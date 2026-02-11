@@ -1,0 +1,52 @@
+name: "Manufacturing Dashboard"
+description: "Food & Beverage Manufacturing System in Stockholm"
+version: "1.0.0"
+
+agents:
+  - name: "alert_agent"
+    type: "assistant"
+    config:
+      model: "gpt-4"
+      system_message: "Alert Detection Agent for manufacturing sensors"
+      temperature: 0.1
+      
+  - name: "analyzer_agent"
+    type: "assistant"
+    config:
+      model: "gpt-4"
+      system_message: "Root Cause Analyzer for manufacturing issues"
+      temperature: 0.2
+      
+  - name: "production_agent"
+    type: "assistant"
+    config:
+      model: "gpt-4"
+      system_message: "Production Line Manager for real-time adjustments"
+      temperature: 0.1
+      
+  - name: "optimum_agent"
+    type: "assistant"
+    config:
+      model: "gpt-4"
+      system_message: "Optimization Solution Agent for long-term improvements"
+      temperature: 0.3
+
+workflows:
+  - name: "sensor_monitoring"
+    description: "Monitor sensors and trigger alerts"
+    agents: ["alert_agent"]
+    
+  - name: "incident_response"
+    description: "Full incident response workflow"
+    agents: ["alert_agent", "analyzer_agent", "production_agent", "optimum_agent"]
+    sequence: true
+
+skills:
+  - name: "sensor_analysis"
+    description: "Analyze manufacturing sensor data"
+    
+  - name: "predictive_maintenance"
+    description: "Predict equipment failures"
+    
+  - name: "production_optimization"
+    description: "Optimize manufacturing parameters"

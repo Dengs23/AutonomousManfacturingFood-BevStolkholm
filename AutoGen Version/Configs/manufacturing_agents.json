@@ -1,0 +1,51 @@
+{
+  "name": "manufacturing_agents",
+  "description": "Food & Beverage Manufacturing System Agents",
+  "agents": [
+    {
+      "name": "alert_agent",
+      "type": "assistant",
+      "config": {
+        "model": "gpt-4o-mini",
+        "system_message": "Alert Detection Agent for manufacturing systems. Monitor 17 sensors and detect anomalies.",
+        "temperature": 0.1
+      }
+    },
+    {
+      "name": "analyzer_agent",
+      "type": "assistant",
+      "config": {
+        "model": "gpt-4o-mini",
+        "system_message": "Root Cause Analyzer Agent. Investigate alerts to determine root causes.",
+        "temperature": 0.2
+      }
+    },
+    {
+      "name": "production_agent",
+      "type": "assistant",
+      "config": {
+        "model": "gpt-4o-mini",
+        "system_message": "Production Line Manager Agent. Adjust production parameters.",
+        "temperature": 0.1
+      }
+    },
+    {
+      "name": "optimum_agent",
+      "type": "assistant",
+      "config": {
+        "model": "gpt-4o-mini",
+        "system_message": "Optimization Solution Agent. Provide long-term solutions.",
+        "temperature": 0.3
+      }
+    }
+  ],
+  "workflows": [
+    {
+      "name": "incident_response",
+      "description": "Full manufacturing incident response",
+      "agents": ["alert_agent", "analyzer_agent", "production_agent", "optimum_agent"],
+      "sequence": true,
+      "max_turns": 12
+    }
+  ]
+}
