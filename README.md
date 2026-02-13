@@ -14,3 +14,7 @@ AI-powered manufacturing system using machine learning and CrewAI.
 - `models/`: ML models
 - `agents/`: CrewAI agents
 - `crew/`: Crew orchestration
+
+
+Results in Video form can be found here : https://youtu.be/o_X01ybGovg
+
