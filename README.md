@@ -16,5 +16,5 @@ AI-powered manufacturing system using machine learning and CrewAI.
 - `crew/`: Crew orchestration
 
 
-Results in Video form can be found here : https://youtu.be/o_X01ybGovg
+Results in video format can be found here : https://youtu.be/o_X01ybGovg
 
